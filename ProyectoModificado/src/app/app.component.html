@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<h1>
+  Frases celebres por escritores
+</h1>
+
+<div id="principal" *ngFor="let escritor of lista.escritores; let i = index">
+  <p (click)="cambiarColapso()" *ngIf="escritor.id">
+    {{ escritor.nombre }}
+  </p>
+
+  <div *ngFor="let frase of frasesEscritores.frases; let j = index">
+    <p *ngIf="escritor.id == frase.id_autor && !isCollapse">
+      {{ frase.texto }}
+    </p>
+  </div>
+</div>
+<router-outlet></router-outlet>

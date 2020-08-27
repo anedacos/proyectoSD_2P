@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "carlos adrian",
+        "apellido": "archundia"
+    },
+    {
+        "id": 2,
+        "nombre": "luis piguave",
+        "apellido": "Patricio"
+    },
+    {
+        "id": 3,
+        "nombre": "pepino de mar",
+        "apellido": "bob esponja"
+    }
+]

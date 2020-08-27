@@ -1,0 +1,13 @@
+#principal {
+    width: 17%;
+    border: 0.5pt dotted white;
+    display: inline-block;
+    margin: 0em;
+    padding: 1em;
+    height: auto;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+}
